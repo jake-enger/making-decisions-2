@@ -1,12 +1,13 @@
 // For problems 1-2 use the following lines of code:
-var arr = [10,20,30,40,50,60]
+var arr = [10, 20, 30, 40, 50, 60]
 
 ////////// PROBLEM 1 //////////
 /*
   Create a variable named 'firstItem' and set it equal to the first value of the 'arr' array.
 */
 
-//Code Here
+var firstItem = 0
+    console.log(arr[firstItem])
 
 
 ////////// PROBLEM 2 //////////
@@ -14,7 +15,8 @@ var arr = [10,20,30,40,50,60]
   Remove the last item from the 'arr' array and store it in a variable named 'lastItemRemoved'. Console.log the array to verify you no longer have the last item.
 */
 
-//Code Here
+var lastItemRemoved = arr.pop()
+  console.log(arr)
 
 ////////// PROBLEM 3 //////////
 
@@ -26,7 +28,11 @@ var family = ['Tyler', 'Jordan', 'Ryan', 'Alice', 'Ireland'];
   Loop through the 'family' array and console.log every item.
 */
 
-//Code Here
+for (let i = 0; i < family.length; i++) {
+  console.log(family[i])
+
+}
+
 
 
 
