@@ -47,7 +47,14 @@ let evensArr = []
   Use a for-loop to iterate through each number in the 'nums' array, if the number is even, append it to the 'evensArr'.
 */
 
-//Code Here
+
+for (var i = 0; i < nums.length; i++) {
+  if (nums[i] % 2 == 0) {
+    evensArr.push(nums[i]);
+    console.log(nums[i]);
+  }
+}
+
 
 
 
@@ -61,7 +68,16 @@ var score = 74
   Determine if the letter grade of the given variable 'score'. If the variable is a 90 or above, console log an 'A', between 80 and 89, console log a 'B', between 70 and 79, 'C', between 60 and 69, 'D', and anything below 60 should console log an 'F'.
 */
 
-//Code Here
+if (score >= 90) {
+  console.log("A")
+} else if (score >= 80 && score <= 89) {
+  console.log("B")
+} else if (score >= 70 && score <= 79 ) {
+  console.log("C")
+} else if (score >= 60 && score <= 69) {
+  console.log("D")
+}
+
 
 
 ////////// Intermediate Problems //////////
@@ -76,7 +92,8 @@ var myFavoriteNumbers = [4,8,12,16,20,24];
   Create a variable named 'someNum' and set it equal to the fifth value of the 'myFavoriteNumbers' array.
 */
 
-//Code Here
+var someNum = 5
+console.log(myFavoriteNumbers[someNum])
 
 
 ////////// PROBLEM 7 //////////
